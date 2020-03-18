@@ -1,0 +1,64 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+}
+
+#img {
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+	justify-content: space-between;
+	font-size: 1.5em;
+}
+
+.info label {
+	display: flex;
+	align-items: center;
+}
+
+.info label input {
+	width: 100%;
+	margin-left: 15px;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	font-size: 1.1em;
+}
+
+.img {
+	width: 200px;
+	height: 300px;
+}
+
+.img div {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#save {
+	font-size: 1em;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+#save:disabled {
+	opacity: 0.7;
+}
