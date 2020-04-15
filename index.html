@@ -6,7 +6,7 @@
 	<title>Document</title>
 </head>
 <body>
-	<div class="form">
+	<div class="main">
 		<div class="img">
 			<div>
 				<img src="avatar.jpg" alt="Avatar" id="img">
@@ -34,6 +34,28 @@
 				<input type="date" name="Birth">
 			</lable>
 			<button id="save" disabled>Save</button>
+		</div>
+		<div class="setting">
+			<div class="wrapper">
+				<button id="background">Смена темы</button>
+			</div>
+			<div class="wrapper">
+				<input type="text" id="inpOnchange">
+				<span>Введите что-нибудь для сброса</span>
+			</div>
+			<div class="wrapper">
+				<button id="btnOnfocusOnblur">Повернуть картинку</button>
+			</div>
+			<div class="wrapper">
+				<input type="text" id="inpOninput">
+				<span>Вы ввели: </span>
+				<span id="input"></span>
+			</div>
+			<div class="wrapper">
+				<input type="text" id="inpOnkeydown">
+				<span id="keyName" = >Вы нажали клавишу: </span>
+				<span id="keyEvent"></span>
+			</div>
 		</div>
 	</div>
 	<script type="text/javascript" src="script.js"></script>

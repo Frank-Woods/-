@@ -7,7 +7,7 @@ body {
 	overflow: hidden;
 }
 
-.form {
+.main {
 	display: flex;
 	justify-content: center;
 }
@@ -61,4 +61,35 @@ body {
 
 #save:disabled {
 	opacity: 0.7;
+}
+
+.setting {
+	margin-left: 250px;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	width: 400px;
+}
+
+.wrapper input, button {
+	width: 150px;
+	box-sizing: border-box;
+	margin-right: 20px;
+	border: 1px solid
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px;
+	outline: none;
+	font-size: 1.2em
+}
+
+button {
+	cursor: pointer;
+}
+
+span {
+	font-size: 1.2em;
 }
